@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Personal portfolio of Your Name">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <h1>EMAN FATIMA</h1>
+        <p>Student and beginner web developer</p>
+        <nav>
+            <a href="#about">About</a>|
+            <a href="#skills">Skills</a>|
+            <a href="#Education">Education</a>|
+            <a href="#Contact">Contact</a>|
+            <a href="#project">Project</a>
+
+
+        </nav>
+    </header>
+    <hr>
+    <main>
+        <section id="about">
+            <h2>About Me</h2>
+            <p>Hi I am <strong>Eman Fatima</strong> studying <strong>BS Artificial Intelligence</strong> at <strong>National Textile University</strong>. <br>I like solving problems and building things people can click on.
+
+            <br>Outside of class I enjoy watching movies and reading books.
+
+           <br> "The best way to learn is to build something."</p>
+        </section>
+        <section id="skills">
+            <h2>My Skills</h2>
+            <p>
+                <label for="s1">HTML(85%)</label><br>
+                <progress id="s1" value="85" max="100"></progress>
+            </p>
+            <p>
+                <label for="s2">Communication(70%)</label><br>
+                <progress id="s2" value="70" max="100"></progress>
+
+            </p>
+            <p>
+                <label for="s3">Problem solving(80)</label><br>
+                <progress id="s3" value="80" max="100"></progress>
+            </p>
+        </section>
+        <section id="Education">
+            <h2>My Education</h2>
+            <table border="1" cellpadding="8">
+                <caption>My learning record</caption>
+                <thead>
+                    <tr>
+                        <th>Year</th>
+                        <th>Institution</th>
+                        <th>What I studied</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>2020-2022</td>
+                        <td>Government MC high School</td>
+                        <td>Matric</td>
+                    </tr>
+                     <tr>
+                        <td>2022-2024</td>
+                        <td>Punjab College Daewoo Campus</td>
+                        <td>Fsc Pre Medical</td>
+                    </tr>
+                     <tr>
+                        <td>2025-2029</td>
+                        <td>National Textile University</td>
+                        <td>BS Artificial Intelligence(current)</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+        <section id="project">
+            <h2>My Project</h2>
+            <p>Click a project to open or close its details</p>
+            <details> <summary>Protofolio Website</summary>
+                <p>This portfolio, built using only HTML.</p>
+                <ul>
+                    <li>Tools: HTML, VS Code</li>
+                    <li>What I learned: page structure, forms, tables</li>
+                </ul>
+            </details>
+            <details>
+                <summary>Cipher Helix</summary>
+                <p>This was my second semester project.
+                    <ul>
+                        <li>Tools: OOP,Visual studio</li>
+                    </ul>
+                </p>
+            </details>
+                    
+              
+
+        </section>
+        <section id="Contact">
+            <h2>My Contact</h2>
+            <form action="mailto:emanfatima0416@gmail.com" method="post " enctype="text/plain">
+                <p>
+                <label for="name">Enter Name:</label><br>
+                <input type="text" id="name" name="name" required minlength="2" placeholder="Eman Fatima">
+                </p>
+                <p>
+                    <label for="email">Enter Email:</label><br>
+                    <input type="text" id="email" name="email" required minlength="2" placeholder="eman@gmail.com">
+
+                </p>
+                <p>
+                    <label for="topic">Topic:</label><br>
+                    <select id="topic" name="topic">
+                        <option value="general">Just saying Hello</option>
+                        <option value="project">Project Work</option>
+                        <option value="internship">Internship</option>
+                    </select>
+                </p>
+                <fieldset>
+                    <legend>How should I reply</legend>
+                    <input type="radio" id="r1" name="reply" value="email" checked>
+                    <label for="r1">Email</label><br>
+                    <input type="radio" id="r2" name="reply" value="phone">
+                    <label for="r2">Phone</label><br>
+                     </fieldset>
+                    <p>
+                        <label for="msg">Message:</label><br>
+                        <textarea id="msg" name="msg" rows="5" cols="40 required minlength=10"></textarea>
+                    </p>
+                    <p>
+                        <input type="checkbox" id="ch" name="ch" required>
+                        <label for="ch">I agree to be contacted back</label>
+                    </p>
+                    <button type="submit">Send Message</button>
+                    <button type="reset">Clear form</button>
+
+                
+
+            </form>
+             <address>
+        Email: <a href="mailto:emanfatima0416@gmail.com">emanfatima0416@gmail.com</a><br>
+        City: Faisalabad, Pakistan
+      </address>
+        </section>
+
+
+
+    </main>
+    <hr>
+    <footer>
+        <p> <a href="#top">Back to top</a></p>
+        <p> <small>&copy; 2026 Eman Fatima. All rights reserved</small></p>
+    </footer>
+ 
+</body>
+</html>
